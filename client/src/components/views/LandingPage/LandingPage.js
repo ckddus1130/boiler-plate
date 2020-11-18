@@ -15,7 +15,7 @@ function LandingPage(props) {
       if(response.data.success){
         props.history.push("/login")
       }else{
-        alert('로그아웃하는데 실패했습니다');
+        alert('로그아웃하는데 실패했습니다.');
       }
     })
   }
